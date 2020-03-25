@@ -1,0 +1,273 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": [
+          "help",
+          "I need some help",
+          "what can you help me with",
+          "what can you do",
+          "I cant understand",
+          "I didnt get that"
+        ]
+      },
+      {
+        "name": "AMAZON.StartOverIntent",
+        "samples": [
+          "Can you repeat that please",
+          "start over",
+          "restart"
+        ]
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "guess we are good to end our conversation",
+          "well see you again",
+          "well then catch you later",
+          "thanks bye",
+          "thank you",
+          "stop"
+        ]
+      },
+      {
+        "name": "BreathCoughIntent",
+        "samples": [
+          "yes i do have a cough",
+          "yes i have a cough",
+          "yes I do",
+          "positive"
+        ],
+        "slots": []
+      },
+      {
+        "name": "BreathShortness",
+        "samples": [
+          "cant breath",
+          "shortness of breath",
+          "breath shortness",
+          "tightness in chest",
+          "pressure in chest",
+          "tight chest"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ChestFiveToSeven",
+        "samples": [
+          "five",
+          "six",
+          "seven"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ChestGreaterThanSeven",
+        "samples": [
+          "eight",
+          "nine",
+          "ten"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ChestIntent",
+        "samples": [
+          "chest pain",
+          "chest",
+          "heart pain",
+          "heart stroke",
+          "heart"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ChestOneToFour",
+        "samples": [
+          "one",
+          "two",
+          "three",
+          "four"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ChestRadiates",
+        "samples": [
+          "radiates",
+          "it radiates",
+          "yes it radiates",
+          "chest pain radiates"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ChestRadiatesNegative",
+        "samples": [
+          "no it does not radiate",
+          "it does not radiate",
+          "no radiation of pain",
+          "chest pain does not radiate"
+        ],
+        "slots": []
+      },
+      {
+        "name": "FeverIntent",
+        "samples": [
+          "right",
+          "fever",
+          "I have fever",
+          "fever I guess",
+          "may be fever",
+          "body temperature",
+          "high in temperature"
+        ],
+        "slots": []
+      },
+      {
+        "name": "MetallicCoppery",
+        "samples": [
+          "Metallic",
+          "Coppery",
+          "metallic taste",
+          "coppery taste",
+          "its coppery",
+          "its metallic",
+          "it tastes bad"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NauseaCan",
+        "samples": [
+          "I have vomited",
+          "had vomitings",
+          "vomited",
+          "had vomited"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NauseaIntent",
+        "samples": [
+          "Nausea",
+          "I think I feel Nausea",
+          "may be Nausea"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NauseaNotSuddenOnset",
+        "samples": [
+          "not sudden"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NauseaSuddenOnset",
+        "samples": [
+          "sudden"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NoBreathShortness",
+        "samples": [
+          "no I don't"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NoContinuationIntent",
+        "samples": [
+          "no"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NoCoughIntent",
+        "samples": [
+          "negative",
+          "wrong"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NoStomachAche",
+        "samples": [
+          "safe"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NotMetallicCoppery",
+        "samples": [
+          "its something different",
+          "not coppery",
+          "not coppery taste",
+          "not mettalic taste",
+          "not mettalic "
+        ],
+        "slots": []
+      },
+      {
+        "name": "NoVomitingIntent",
+        "samples": [
+          "no vomiting",
+          "I have not vomited",
+          "Have not vomited"
+        ],
+        "slots": []
+      },
+      {
+        "name": "RepeatProcessIntent",
+        "samples": [
+          "yes",
+          "yeah"
+        ],
+        "slots": []
+      },
+      {
+        "name": "StomachAche",
+        "samples": [
+          "not safe"
+        ],
+        "slots": []
+      },
+      {
+        "name": "TemperatureIntentHigh",
+        "samples": [
+          "greater than hundred and five",
+          "more than hundred and five",
+          "above hundred and five"
+        ],
+        "slots": []
+      },
+      {
+        "name": "TemperatureIntentLow",
+        "samples": [
+          "less than hundred",
+          "less than one hundred",
+          "below hundred",
+          "lower than hundred"
+        ],
+        "slots": []
+      },
+      {
+        "name": "TemperatureIntentMedium",
+        "samples": [
+          "between hundred and hundred and five",
+          "between hundred and one hundred and five",
+          "between one hundred and one hundred and five"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "hackathon"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "hackathonAlexa.app",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "hackathon",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-g5x0rzrck"
+    }
+}

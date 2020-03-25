@@ -1,0 +1,32 @@
+Greetings !!
+
+The Technologies we used are:
+    Amazon development portal
+    Python programming (flask)
+    Zappa (for deployment)
+
+Initially we choose:
+      AWS lambda function instead of Zappa,
+          faced difficulty with flask_ask integration
+      Later on tried running code locally and used ngrok to get a https URL
+          but connection was not stable
+
+There are couple of steps that we followed;
+
+Step 1: Created a virtual environment locally and installed all the required dependencies.
+Step 2: Created Lambda function locally in pyCharm using flask api of python.
+Step 3: Created IAM account in AWS and deployed code using Zappa user which provides a static URL
+Step 4: Then opened a free tier Amazon developer account and created a Alexa skill in it
+Step 5: There we provided the intentSchema as a JSON file to the Skill and built it.
+Step 6: Later on Configured the skill with lambda function using Zappa provided URL.
+
+The device is now ready to test using echosim.io virtually or using devices like Echo, Echo dot physically
+          by logging in with same amazon account user id and password
+
+Now let me walk you through the code real quick;
+
+Code demo
+
+This code is available on gitHub
+
+We thought of implementing scikit library to teach our skill more, but we have a very less time window to fit everything.
