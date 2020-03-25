@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 .idea
 .DS_Store
+*.txt
 __pycache__/
 *.py[cod]
 *$py.class
