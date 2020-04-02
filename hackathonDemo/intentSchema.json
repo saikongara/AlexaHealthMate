@@ -1,0 +1,88 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": [
+          "help"
+        ]
+      },
+      {
+        "name": "AMAZON.StartOverIntent",
+        "samples": [
+          "Can you repeat that please",
+          "start over",
+          "restart"
+        ]
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "stop"
+        ]
+      },
+      {
+        "name": "FirstIntent",
+        "samples": [
+          "Of course I mind",
+          "yes"
+        ],
+        "slots": []
+      },
+      {
+        "name": "GetStartedIntent",
+        "samples": [
+          "staying",
+          "I will stay",
+          "I am staying",
+          "I wont leave"
+        ],
+        "slots": []
+      },
+      {
+        "name": "TechUsedIntent",
+        "samples": [
+          "Sure what exactly did I use to build it",
+          "Sure explain about technologies I used"
+        ],
+        "slots": []
+      },
+      {
+        "name": "DifficultiesIntent",
+        "samples": [
+          "You covered everything lets get into difficulties we faced",
+          "you are good lets go to the difficulties we faced"
+        ],
+        "slots": []
+      },
+      {
+        "name": "StepsFollowedIntent",
+        "samples": [
+          "No more lets walk through the steps that I followed",
+          "Thats good enough explain the steps I followed"
+        ],
+        "slots": []
+      },
+      {
+        "name": "TestReadyIntent",
+        "samples": [
+          "Thats all I guess Oh ya you missed about testing part",
+          "explain about testing"
+        ],
+        "slots": []
+      },
+      {
+        "name": "SendOffIntent",
+        "samples": [
+          "Thanks for helping me here Alexa You are good to return to sleep"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "presenting"
+  }
+}

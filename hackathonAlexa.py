@@ -1,11 +1,11 @@
 from flask import Flask
 from flask_ask import Ask, statement, question, session
-import os
+# import os
 import logging
-import json
-import requests
-import time
-import unidecode
+# import json
+# import requests
+# import time
+# import unidecode
 
 app = Flask(__name__)
 ask = Ask(app, "/")
@@ -21,7 +21,7 @@ def lambda_handler(event, _context):
 def start_skill():
     global COUNTER
     COUNTER += 0
-    welcome_message = " Welcome to the Optum medical triage!  You can ask me about your symptoms and I will try to assist you. " \
+    welcome_message = " Welcome to the Health Care Medical triage!  You can ask me about your symptoms and I will try to assist you. " \
                       " If this is an emergency I would suggest you to call 9 1 1. " \
                       " What is your worst symptom ? Choose from Chest pain, Nausea, Shortness of breath and Fever."
     return question(welcome_message)
@@ -211,8 +211,7 @@ def feverTemperatureHigh():
 def feverTemperatureMedium():
     global COUNTER
     COUNTER += 2
-    return statement("You should probably see a doctor at a nearby clinic.  The closest is Minutt Clinic at 8251 Columbine Rd, Eden Prairie, MN 55344. " \
-                        "Current wait time is 18 minutes")
+    return statement("You should probably see a doctor at a nearby clinic.  Google Maps A P I is currently not integrated, you can find it in my next upgrade.")
 
 @ask.intent("TemperatureIntentLow")
 def feverTemperatureLow():
