@@ -1,11 +1,6 @@
 from flask import Flask
-from flask_ask import Ask, statement, question, session
-# import os
+from flask_ask import Ask, statement, question
 import logging
-# import json
-# import requests
-# import time
-# import unidecode
 
 app = Flask(__name__)
 ask = Ask(app, "/")
@@ -28,21 +23,6 @@ def start_skill():
 def help():
     help_message = "I am here to help Sai to present his work"
     return statement(help_message)
-
-# # Initiation of Chest pain
-# @ask.intent("FirstIntent")
-# def First():
-#     first_question = " Well ! I don't care. " \
-#                      " If you don't like it, you may leave. " \
-#                      " Are you staying, or leaving ? "
-#     return question(first_question)
-#
-# @ask.intent("GetStartedIntent")
-# def getStarted():
-#     started_message = " Good. " \
-#                       " let's get into work. " \
-#                       " You wanna start ?"
-#     return question(started_message)
 
 @ask.intent("TechUsedIntent")
 def technologyUsed():
